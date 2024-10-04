@@ -3,5 +3,5 @@ from apps.PrimeraApi.models import Usuarios
 
 class UsuariosSerializers(ModelSerializer):
     class Meta:
-        model = Usuarios
+        model = Usuarios 
         fields = '__all__'
